@@ -143,10 +143,10 @@
 
         iPadOS_default {
             bindings = <
-&kp Q             &kp W      &kp E         &kp R            &kp T                                            &kp Y        &kp U  &lt 5 I    &kp O       &lt 5 P
-&kp A             &kp S      &kp D         &kp F            &kp G        &kp ESCAPE           &kp MINUS      &kp H        &kp J  &kp K      &kp L       &kp AT_SIGN
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V            &kp B        &kp TAB              &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LEFT_GUI      &kp LCTRL  &kp LEFT_ALT  &lt 7 LG(SPACE)  &lt 2 SPACE  &lt 6 LG(SPACE)      &kp BACKSPACE  &lt 3 ENTER                                &kp DEL
+&kp Q             &kp W         &kp E         &kp R             &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O       &lt 5 P
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L       &kp AT_SIGN
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &lt 7 LANGUAGE_1  &lt 2 SPACE  &lt 6 LANG2      &kp BACKSPACE  &lt 3 ENTER                                &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;

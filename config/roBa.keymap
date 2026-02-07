@@ -132,10 +132,10 @@
 
         Win_default {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp ESC                            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp AT_SIGN
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp TAB                            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F                   &kp G        &kp ESC                     &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp AT_SIGN
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp TAB                     &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LANG2  &lt 2 SPACE  &lt_to_layer_0 6 LANG1      &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;

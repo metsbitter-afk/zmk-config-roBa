@@ -78,10 +78,16 @@
             label = "BT_WIN";
         };
 
-        bt_iPad: bt_iPad {
+        bt_ipad: bt_ipad {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings =
+                <&tog_off 0 &tog_off 1>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 1>,
+                <&macro_wait_time 500>,
+                <&tog_on 1>;
+
             label = "BT_IPAD";
         };
     };

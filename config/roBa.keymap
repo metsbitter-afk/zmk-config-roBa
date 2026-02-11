@@ -73,7 +73,7 @@
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>,
-                <&tog_on 1>;
+                <&tog_on 0>;
 
             label = "BT_WIN";
         };
@@ -86,7 +86,7 @@
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 1>,
                 <&macro_wait_time 500>,
-                <&tog_on 0>;
+                <&tog_on 1>;
 
             label = "BT_IPAD";
         };

@@ -132,10 +132,10 @@
 
         Win_default {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp ESC                     &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp AT_SIGN
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp TAB                     &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LANG2  &lt 2 SPACE  &lt_to_layer_0 6 LANG1      &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F        &kp G        &kp ESC          &kp EQUAL      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp TAB          &kp MINUS      &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 7 LANG2  &lt 2 SPACE  &lt 3 LANG1      &kp BACKSPACE  &lt 6 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -144,9 +144,9 @@
         iPadOS_default {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O       &lt 5 P
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE       &kp MINUS      &kp H        &kp J  &kp K      &kp L       &kp AT_SIGN
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &lt 7 LANGUAGE_1  &lt 2 SPACE  &lt 6 LANG2      &kp BACKSPACE  &lt 3 ENTER                                &kp DEL
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp ESCAPE       &kp EQUAL      &kp H        &kp J  &kp K      &kp L       &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB          &kp MINUS      &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp LCTRL         &kp LEFT_GUI  &kp LEFT_ALT  &lt 7 LANGUAGE_1  &lt 2 SPACE  &lt 3 LANG2      &kp BACKSPACE  &lt 6 ENTER                                &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -163,20 +163,22 @@
 
         SYMBOLS {
             bindings = <
-&trans     &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans             &trans
-&kp TILDE  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &trans  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp SQT            &kp BACKSLASH
-&kp GRAVE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &trans  &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp PIPE
-&trans     &trans           &trans                &trans                 &trans  &trans      &trans  &trans                                                                         &trans
+&trans     &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans             &trans
+&kp TILDE  &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                 &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp SQT            &kp BACKSLASH
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &trans                 &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp PIPE
+&trans     &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                              &trans
+&trans  &trans  &trans  &trans    &trans                            &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans        &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans        &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mkp MB2  &mkp MB3  &mkp MB1      &mkp MB4  &mkp MB5                          &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL {
@@ -196,7 +198,7 @@
 &trans              &trans                  &trans          &trans                   &trans               &trans      &trans  &trans                                                                               &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         BT_setting {
